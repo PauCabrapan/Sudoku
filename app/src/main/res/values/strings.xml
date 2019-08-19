@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mi Sudoku</string>
+    <string name="opcionfacil">Fácil</string>
+    <string name="opcionmedio">Medio</string>
+    <string name="opciondificil">Dificil</string>
+    <string name="jugar">Jugar</string>
+    <string name="pista">Pista</string>
+    <string name="msj">Mensajito</string>
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="error">Errores: </string>
+    <string name="help">¿Cómo jugar?</string>
+    <string name="estad">Estadísticas</string>
+    <string name="msjAyuda">"El sudoku comienza con una cuadrícula en la cual algunos de los números ya están en su lugar, en dependencia de la dificultad del juego. Se completa el tablero cuando cada número del 1 al 9 aparece solamente una vez en cada una de las 9 filas, columnas y bloques";</string>
+    <string name="jGanados">Juegos ganados:</string>
+    <string name="jPerdidos">Juegos perdidos:</string>
+    <string name="jsAyuda">Victorias sin ayuda:</string>
+    <string name="rVictorias">Mejor racha de victorias:</string>
+    <string name="info">Información</string>
+</resources>
