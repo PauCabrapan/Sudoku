@@ -19,7 +19,7 @@
     <string name="error">Errores: </string>
     <string name="help">¿Cómo jugar?</string>
     <string name="estad">Estadísticas</string>
-    <string name="msjAyuda">"El sudoku comienza con una cuadrícula en la cual algunos de los números ya están en su lugar, en dependencia de la dificultad del juego. Se completa el tablero cuando cada número del 1 al 9 aparece solamente una vez en cada una de las 9 filas, columnas y bloques";</string>
+    <string name="msjAyuda">El sudoku comienza con una cuadrícula en la cual algunos de los números ya están en su lugar, en dependencia de la dificultad del juego. Se completa el tablero cuando cada número del 1 al 9 aparece solamente una vez en cada una de las 9 filas, columnas y bloques.</string>
     <string name="jGanados">Juegos ganados:</string>
     <string name="jPerdidos">Juegos perdidos:</string>
     <string name="jsAyuda">Victorias sin ayuda:</string>

@@ -155,7 +155,6 @@ public class Tablero extends AppCompatActivity {
 
 
     private void endGame() {
-
         SharedPreferences pref = getSharedPreferences("contadores",MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         int cant;

@@ -1,7 +1,5 @@
 package Cabrapan.MiSudoku;
 
-import android.util.Log;
-
 class CollectionCelda {
     private static final int size = 9;
     private Celda[][] celdas;
@@ -47,7 +45,7 @@ class CollectionCelda {
         }
     }
 
-    public boolean jugadaValidaAux(Celda[][] tablero, int nro, int x, int y) {
+    private boolean jugadaValidaAux(Celda[][] tablero, int nro, int x, int y) {
         tablero[x][y].setValor(0);
         if(nro == 0){
             return true;
@@ -162,7 +160,6 @@ class CollectionCelda {
         int[] toRet = new int [3];
         Celda [][] aux = copy(celdas);
         if(solve(aux)){
-            Log.d("ES","S");
             boolean fin = false;
             int f = 0;
             int c = 0;
@@ -174,7 +171,6 @@ class CollectionCelda {
                 }
                 f++;
             }
-            Log.d("Fin",String.valueOf(fin));
             if(fin) {
                 toRet[0] = f - 1;
                 toRet[1] = c -1;

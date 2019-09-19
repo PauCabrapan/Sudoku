@@ -1,7 +1,5 @@
 package Cabrapan.MiSudoku;
 
-import android.util.Log;
-
 import java.util.HashMap;
 
 public class Juego {
@@ -30,7 +28,6 @@ public class Juego {
     }
 
     public int[][] iniciarJuego(){
-        Log.d("juego",generator.printSudoku());
         int[][] newTablero = generator.getMat();
         celdas.llenar(newTablero);
         return newTablero;
